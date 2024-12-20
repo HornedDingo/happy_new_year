@@ -2,9 +2,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>С Новым Годом!</title>
 </head>
 <body>
-    
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">С Новым Годом!</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Подарки</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Поделиться</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <img width="24" height="24" src="assets/icons/close.svg" alt="Закрыть"/>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <img width="24" height="24" src="assets/icons/toggle.svg" alt="Меню"/>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home">
+            <div class="home__container container">
+                <img src="assets/img/background.svg" alt="Фон" class="home__bg"/>
+                <img src="assets/img/cloud_1.svg" alt="Облако" class="home__cloud-1"/>
+                <img src="assets/img/cloud_2.svg" alt="Облако" class="home__cloud-2"/>
+                <img src="assets/img/ded_moroz.svg" alt="Дед Мороз" class="home__ded-moroz"/>
+
+                <div class="home__images">
+                    <img src="assets/img/christmas_tree.svg" alt="Ёлка" class="home_christmas-tree"/>
+                    <img src="assets/img/spruce_left_1.svg" alt="Ель" class="home__spruce-left-1"/>
+                    <img src="assets/img/spruce_left_2.svg" alt="Ель" class="home__spruce-left-2"/>
+                    <img src="assets/img/spruce_left_3.svg" alt="Ель" class="home__spruce-left-3"/>
+                    <img src="assets/img/house_1.svg" alt="Дом" class="home__house-1"/>
+                    <img src="assets/img/house_2.svg" alt="Дом" class="home__house-2"/>
+                    <img src="assets/img/house_3.svg" alt="Дом" class="home__house-3"/>
+                    <img src="assets/img/house_4.svg" alt="Дом" class="home__house-4"/>
+                    <img src="assets/img/spruce_right_1.svg" alt="Ель" class="home__spruce-right-1"/>
+                    <img src="assets/img/spruce_right_2.svg" alt="Ель" class="home__spruce-right-2"/>
+                    <img src="assets/img/snow_back_left.svg" alt="Снег" class="home__snow-back-left"/>
+                    <img src="assets/img/snow_back_right.svg" alt="Снег" class="home__snow-back-right"/>
+                    <img src="assets/img/spruce_white_right.svg" alt="Ель" class="home__spruce-white-right"/>
+                    <img src="assets/img/snow_front_right.svg" alt="Снег" class="home__snow-front-right"/>
+                    <img src="assets/img/spruce_white_left.svg" alt="Ель" class="home__spruce-white-left"/>
+                    <img src="assets/img/snow_front_left.svg" alt="Снег" class="home__snow-front-left"/>
+                </div>
+                <h1 class="home__title">С НОВЫМ<br>ГОДОМ!</h1>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="https://app.embed.im/snow.js" defer></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
